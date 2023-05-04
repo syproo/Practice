@@ -1,0 +1,11 @@
+let marks = prompt("Enter Your Marks ");
+
+function result (Pass,Fail){
+if (marks > 49) {
+    console.log("Pass");
+}
+else {
+    console.log("Fail");
+}
+}
+result();
