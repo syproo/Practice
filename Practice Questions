@@ -1,0 +1,91 @@
+//1-Write a function that takes two parameters, an array of numbers and a target number. The function should return a pair of numbers from the array that adds up to the target number. 
+// If no such pair is found, the function should return null.
+// Example input: findPair([1, 2, 3, 4], 5) Example output: [1, 4]
+
+
+
+
+//2. Write a function that takes a string as input and returns the reverse of the string.
+//    Example input: reverseString("hello")  
+//    Example output: "olleh"
+
+// const string = "javascript";
+
+// function reverseString(string) {
+//     let output = string.split("").reverse().join("");
+//     return output
+// }
+// console.log(reverseString(string));
+
+
+
+//3. Write a function that takes an array of numbers as input and returns the sum of the two largest numbers in the array.
+// Example input: sumLargest([1, 2, 3, 4])  
+// Example output: 7
+
+// const arr = [2,5,1,3,9,8,7];
+// let sortedArr = arr.sort();
+
+// function sum (sortedArr) {
+
+//     let index1 = sortedArr.at(-1);
+//     let index2 = sortedArr.at(-2);
+//     let result = index1 + index2 ;
+//     console.log ("The Sum of Two largest numbers in an Array is =" , result);   
+
+// }
+// console.log(arr);
+// sum(sortedArr);
+
+
+/*/4. Write a function that takes an array of strings as input and returns a new array that contains only the strings that have more than three characters.
+   Example input: filterStrings(["hi", "hello", "hey", "howdy"])  
+   Example output: ["hello", "howdy"]/*/
+
+// const words = (["hello","hi","hey","howdy"]);
+
+// function filterWords(words) {
+//    let filter = words.filter(words=> words.length >3);
+//    return filter ;   
+// }
+// console.log(filterWords(words));
+
+/*/5. Write a function that takes an array of numbers as input and returns a new array that contains only the even numbers.
+   Example input: filterEven([1, 2, 3, 4, 5, 6])  
+   Example output: [2, 4, 6]/*/
+
+// const numbers = [2, 5, 4, 8, 7, 9, 6];
+
+// function filterNumbers(numbers) {
+//     const output = [];
+//     for (let i = 0; i < numbers.length; i++) {
+//         const filterNumbers = numbers[i];
+//         if (filterNumbers % 2 === 0) {
+//             output.push(filterNumbers);
+//         }
+
+//     }
+//     return output;
+// }
+// console.log(filterNumbers(numbers));
+
+/*/6. Write a function that takes an array of objects and a key name as input and returns a new array that contains only the values of the specified key from each object in the array.
+   Example input: pluck([{name: "John", age: 30}, {name: "Jane", age: 25}], "name")  
+   Example output: ["John", "Jane"]/*/
+
+// const person = [{
+//     name: "Salman",
+//     age: 30
+// },
+
+// {
+//     name: "Saleem",
+//     age: 28
+// }
+// ];
+
+// function findValues(person) {
+//     let output = person.map((value => value.name));
+//     return output;
+// }
+// console.log(findValues(person));
